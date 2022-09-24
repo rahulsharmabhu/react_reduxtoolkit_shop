@@ -20,7 +20,7 @@ const Products = () => {
   //   setProducts(data);
   // }
   // fetchProduct();
-  }, []);
+  }, [dispatch]);
 
   const handleAdd = (product) => {
     dispatch(add(product));
